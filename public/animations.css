@@ -1,0 +1,9 @@
+
+@keyframes openMenu {
+
+}
+
+
+.hamburger-open {
+    animation-name: openMenu;
+}

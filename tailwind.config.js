@@ -11,11 +11,11 @@ module.exports = {
     theme: {
         extend: {
             fontFamily: {
-                raleway: ['Raleway', 'sans-serif'],
+                raleway: ['Helvetica', 'sans-serif'],
             },
             colors: {
                 'navy-blue': '#0A1733',
-                'light-navy': '#0A173354',
+                'light-navy': '#132955',
                 'yellow': '#F1E600',
                 'light-yellow': '#F1E600B9',
                 'white': '#FFFFFF',
