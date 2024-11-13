@@ -2,14 +2,14 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
     content: [
-        "./src/**/*.{html,js,php}",
-        "./views/**/*.php",
-        "./controllers/**/*.php",
-        "./models/**/*.php",
-        "./public/**/*.php",
+        "./src/**/*.{html,js}",
+        "./public/**/*.html",
     ],
     theme: {
         extend: {
+            background: {
+                'hero-background': "url(#)",
+            },
             fontFamily: {
                 raleway: ['Helvetica', 'sans-serif'],
             },
