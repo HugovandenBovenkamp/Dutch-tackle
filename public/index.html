@@ -6,6 +6,9 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../public/output.css">
     <title>Dutch tackle | Buy the latest fishing gear for a fair price!</title>
 </head>
@@ -16,7 +19,8 @@
 <nav class="bg-navy-blue" id="nav">
     <div class="text-light-gray pt-9 pb-5 lg:py-3 container mx-auto px-8 grid grid-cols-1 lg:grid-cols-[200px_minmax(300px,1fr)] items-center">
         <div class="menu-button flex justify-between lg:justify-center items-center">
-            <a href="/public/index.html" class="lg:visible lg:text-center w-1/2 sm:w-1/3 lg:w-4/5"><img src="../src/img/dutchtackle-logo.png" alt="" class="w-full"></a>
+            <a href="/public/index.html" class="lg:visible lg:text-center w-1/2 sm:w-1/3 lg:w-4/5"><img
+                    src="../src/img/dutchtackle-logo.png" alt="" class="w-full"></a>
             <!-- Menu hamburger open button-->
             <button id="menu-open"
                     class="hamburger-open flex lg:hidden hover:bg-light-navy rounded-full p-3 transform transition ease-in-out duration-200 hover:scale-110"
@@ -42,7 +46,7 @@
         <div id="menu"
              class="pt-5 lg:flex justify-center lg:py-4 lg:pr-6 transition-[height] duration-200 h-0 lg:h-auto invisible lg:visible">
             <nav class="flex flex-col lg:flex-row">
-                <ul class="lg:flex items-center">
+                <ul class="lg:flex items-center text-lg">
                     <li class="px-6 py-2 lg:py-0 hover:text-yellow"><a href="/public/index.html" class="block">Home</a>
                     </li>
                     <li class="px-6 py-2 lg:py-0 hover:text-yellow text-nowrap"><a href="#" class="block">Our story</a>
@@ -88,19 +92,53 @@
 </nav>
 
 <!-- Hero section -->
-<header>
-    <section class="hero-section container mx-auto py-5 px-8 flex min-h-96 items-center">
-        <div class="w-1/2">
-            <h1 class="text-5xl mb-4">Dutch tackle</h1>
-            <p class="text-3xl mb-4">Welcome to Dutch tackle your source for premium fishing gear!</p>
-            <button class="rounded bg-yellow p-4 mt-4">
+<header class="bg-navy-blue text-light-gray">
+    <section
+            class="hero-section container mx-auto py-5 px-8 flex min-h-96 justify-start lg:items-center lg:justify-between flex-col lg:flex-row">
+        <div>
+            <h1 class="font-alexbrush text-5xl mb-4 text-yellow">Let's go fishing</h1>
+            <p class="text-2xl lg:text-3xl mb-4 alex">Welcome to Dutch tackle your source for premium fishing gear!</p>
+            <button class="rounded bg-yellow p-4 mt-4 text-dark-gray transition ease-in-out duration-150 hover:bg-light-yellow hover:text-light-gray">
                 <a href="#" class="font-bold">
                     Explore products
                 </a>
             </button>
         </div>
+        <div class="mt-5 lg:mt-0">
+            <img src="../src/img/fishing-background-sunset.jpg" alt="fishing-sunset" class="w-full rounded-lg">
+        </div>
     </section>
 </header>
+
+<!-- Cards section -->
+<section class="bg-light-gray">
+    <div class="container mx-auto py-5 px-8 flex flex-col lg:flex-row text-center">
+        <div class="card-1">
+            <img src="#icon here" alt="">
+            <h4>Fishing reels</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, quis.</p>
+            <button class="rounded bg-yellow p-4 mt-4 text-dark-gray transition ease-in-out duration-150 hover:bg-light-yellow font-bold">
+                Learn more
+            </button>
+        </div>
+        <div class="card-2">
+            <img src="#icon here" alt="">
+            <h4>Rods</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, quis.</p>
+            <button class="rounded bg-yellow p-4 mt-4 text-dark-gray transition ease-in-out duration-150 hover:bg-light-yellow font-bold">
+                Learn more
+            </button>
+        </div>
+        <div class="card-3">
+            <img src="#icon here" alt="">
+            <h4>Fishing lures</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, quis.</p>
+            <button class="rounded bg-yellow p-4 mt-4 text-dark-gray transition ease-in-out duration-150 hover:bg-light-yellow font-bold">
+                Learn more
+            </button>
+        </div>
+    </div>
+</section>
 
 
 <script src="../src/main.js"></script>

@@ -7,11 +7,9 @@ module.exports = {
     ],
     theme: {
         extend: {
-            background: {
-                'hero-background': "url(#)",
-            },
             fontFamily: {
-                raleway: ['Helvetica', 'sans-serif'],
+                raleway: ['raleway', 'sans-serif'],
+                alexbrush: ['Alex Brush'],
             },
             colors: {
                 'navy-blue': '#0A1733',
