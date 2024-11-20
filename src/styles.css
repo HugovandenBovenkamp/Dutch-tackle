@@ -16,3 +16,7 @@
         font-style: normal;
     }
 }
+
+.container {
+    padding: 0 10px;
+}

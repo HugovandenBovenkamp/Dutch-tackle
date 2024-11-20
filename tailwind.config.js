@@ -12,7 +12,7 @@ module.exports = {
                 alexbrush: ['Alex Brush'],
             },
             colors: {
-                'navy-blue': '#0A1733',
+                'navy': '#0A1733',
                 'bright-navy': '#1b3e7a',
                 'light-navy': '#132955',
                 'yellow': '#F1E600',
