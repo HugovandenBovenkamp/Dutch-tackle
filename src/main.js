@@ -1,9 +1,6 @@
 let menuContainer = document.getElementById("menu");
-let nav = document.getElementById("nav");
 let menuOpenButton = document.getElementById("menu-open");
 let menuCloseButton = document.getElementById("menu-close");
-let searchContainer = document.getElementById("search-mobile");
-let navIcons = document.getElementById("nav-icons");
 
 function animateMenu() {
     menuContainer.classList.toggle("invisible");
@@ -11,5 +8,21 @@ function animateMenu() {
     menuContainer.classList.toggle("h-0");
     menuOpenButton.classList.toggle("hidden");
     menuCloseButton.classList.toggle("hidden");
-    // navIcons.classList.toggle("hidden");
 }
+
+// Get json data from local json file and log fetched data
+fetch('http://localhost:63342/dutch-tackle/products.json')
+.then(response=> {
+    if(!response.ok) {
+        throw new Error('HTTP Error! status:' . response.status);
+    }
+    console.log(response);
+    return response.json();
+})
+.then(data => {
+    console.log(data);
+})
+.catch(error => {
+    console.error('Error:', error);
+});
+
