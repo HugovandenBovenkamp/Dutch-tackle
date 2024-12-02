@@ -4,85 +4,85 @@
       "id": 1,
       "name": "Shimano Ultegra",
       "price": 12000,
-      "category": "Reels",
-      "productImage": "src/img/products/shimano-ultegra.jpg"
+      "category": "reels",
+      "productImage": "../src/img/products/shimano-ultegra.jpg"
     },
     {
       "id": 2,
       "name": "Penn Fierce IV",
       "price": 8500,
-      "category": "Reels",
-      "productImage": "src/img/products/penn-fierceiv.jpg"
+      "category": "reels",
+      "productImage": "../src/img/products/penn-fierceiv.jpg"
     },
     {
       "id": 3,
       "name": "Abu garcia Revo X",
       "price": 10000,
-      "category": "Reels",
-      "productImage": "src/img/products/abugarcia-revox.png"
+      "category": "reels",
+      "productImage": "../src/img/products/abugarcia-revox.png"
     },
     {
       "id": 4,
       "name": "Okuma ITX",
       "price": 7000,
-      "category": "Reels",
-      "productImage": "src/img/products/okuma-ITX.jpg"
+      "category": "reels",
+      "productImage": "../src/img/products/okuma-ITX.jpg"
     },
     {
       "id": 5,
       "name": "Westin W3",
       "price": 10000,
       "category": "rods",
-      "productImage": "src/img/products/rod-westin.jpg"
+      "productImage": "../src/img/products/rod-westin.jpg"
     },
     {
       "id": 6,
       "name": "Abu garcia spike",
       "price": 20000,
       "category": "rods",
-      "productImage": "src/img/products/rod-abugarcia.jpg"
+      "productImage": "../src/img/products/rod-abugarcia.jpg"
     },
     {
       "id": 7,
       "name": "Westin Seabass",
       "price": 30000,
       "category": "rods",
-      "productImage": "src/img/products/rod-seabass-westin.jpg"
+      "productImage": "../src/img/products/rod-seabass-westin.jpg"
     },
     {
       "id": 8,
       "name": "Penn Surf",
       "price": 40000,
       "category": "rods",
-      "productImage": "src/img/products/rod-strandhengel-penn.jpg"
+      "productImage": "../src/img/products/rod-strandhengel-penn.jpg"
     },
     {
       "id": 9,
       "name": "Abu garcia plug",
       "price": 10000,
       "category": "lures",
-      "productImage": "src/img/products/lures-plug-abugarcia.jpg"
+      "productImage": "../src/img/products/lures-plug-abugarcia.jpg"
     },
     {
       "id": 10,
       "name": "Westin shadteez",
       "price": 6000,
-      "category": "rods",
-      "productImage": "src/img/products/lures-shadteez-westin.jpg"
+      "category": "lures",
+      "productImage": "../src/img/products/lures-shadteez-westin.jpg"
     },
     {
       "id": 11,
       "name": "Westin vtail",
       "price": 8000,
-      "category": "rods",
-      "productImage": "src/img/products/lures-vitail-westin.png"
+      "category": "lures",
+      "productImage": "../src/img/products/lures-vtail-westin.png"
     },
     {
       "id": 12,
       "name": "Zman TRD craw",
       "price": 12000,
-      "category": "rods",
-      "productImage": "src/img/products/lures-craw-zman.jpg"
+      "category": "lures",
+      "productImage": "../src/img/products/lures-craw-zman.jpg"
     }
   ]
 }

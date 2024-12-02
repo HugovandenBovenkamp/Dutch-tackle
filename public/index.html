@@ -12,12 +12,12 @@
     <link rel="stylesheet" href="../public/output.css">
     <title>Dutch tackle | Buy the latest fishing gear for a fair price!</title>
 </head>
-<body class="font-raleway h-full">
+<body class="font-raleway">
 
 
 <!-- Navbar -->
 <nav class="bg-navy" id="nav">
-    <div class="text-light-gray pt-9 pb-5 lg:py-3 container mx-auto grid grid-cols-1 lg:grid-cols-[200px_minmax(300px,1fr)] items-center lg:justify-items-end">
+    <div class="text-light-gray lg:py-3 container mx-auto grid grid-cols-1 lg:grid-cols-[200px_minmax(300px,1fr)] items-center lg:justify-items-end">
         <div class="menu-button flex justify-between items-center">
             <a href="/public/index.html" class="lg:visible lg:text-center w-1/2 sm:w-1/3 lg:w-4/5"><img
                     src="../src/img/dutchtackle-logo.png" alt="" class="w-full"></a>
@@ -93,15 +93,17 @@
 
 
 <!-- Hero section -->
-<header class="relative text-light-gray pb-10 lg:pb-6 pt-10">
+<header class="relative text-light-gray py-20">
     <div class="absolute inset-0">
         <div class="absolute inset-0 bg-black/30"></div>
         <div class="bg-[url('../src/img/fishing-background-2.jpg')] bg-no-repeat object-fill bg-cover h-full w-full"></div>
     </div>
-    <section class="relative container mx-auto min-h-96 flex text-center lg:text-left justify-center lg:justify-between lg:items-center flex-col lg:flex-row">
+    <section
+            class="relative container mx-auto min-h-96 flex text-center lg:text-left justify-center lg:justify-between lg:items-center flex-col lg:flex-row">
         <div>
             <h1 class="font-alexbrush text-5xl mb-4 text-white">Let's go fishing</h1>
-            <p class="text-2xl lg:text-3xl mb-4 alex text-white">Welcome to Dutch tackle, your source for premium fishing gear!</p>
+            <p class="text-2xl lg:text-3xl mb-4 alex text-white">Welcome to Dutch tackle, your source for premium
+                fishing gear!</p>
             <button class="rounded bg-yellow p-4 mt-4 text-dark-gray transition ease-in-out duration-150 hover:bg-light-yellow hover:text-light-gray">
                 <a href="#" class="font-bold">
                     Explore products
@@ -170,35 +172,96 @@
         <h3 class="text-3xl mb-6">Our new products</h3>
         <div>
             <ul class="flex mb-20 font-bold">
-                <li class="px-6 bg-navy border border-yellow mr-3 hover:bg-light-yellow hover:border-navy hover:transition hover:ease-in-out cursor-pointer">Rods</li>
-                <li class="px-6 bg-navy border border-yellow mr-3 hover:bg-light-yellow hover:border-navy hover:transition hover:ease-in-out cursor-pointer">Reels</li>
-                <li class="px-6 bg-navy border border-yellow mr-3 hover:bg-light-yellow hover:border-navy hover:transition hover:ease-in-out cursor-pointer">Lures</li>
+                <li onclick="filterByCategory('rods')"
+                    class="px-6 bg-navy border border-yellow mr-3 hover:bg-light-yellow hover:border-navy hover:transition hover:ease-in-out cursor-pointer">
+                    Rods
+                </li>
+                <li onclick="filterByCategory('reels')"
+                    class="px-6 bg-navy border border-yellow mr-3 hover:bg-light-yellow hover:border-navy hover:transition hover:ease-in-out cursor-pointer">
+                    Reels
+                </li>
+                <li onclick="filterByCategory('lures')"
+                    class="px-6 bg-navy border border-yellow mr-3 hover:bg-light-yellow hover:border-navy hover:transition hover:ease-in-out cursor-pointer">
+                    Lures
+                </li>
             </ul>
         </div>
-        <div class="product-cards grid lg:grid-cols-4 gap-x-6">
+        <div class="product-cards grid lg:grid-cols-4 gap-x-6" id="product-wrapper">
             <div class="product-card-1 flex flex-col justify-center items-center lg:gap-y-3 bg-white text-black">
-                <img src="../src/img/products/shimano-ultegra.jpg" alt="" class="w-full">
-                <h4 class="font-bold">Product title 1</h4>
-                <span class="font-bold">€100</span>
+                <!--                <img src="../src/img/products/shimano-ultegra.jpg" alt="" class="w-full">-->
+                <!--                <h4 class="font-bold">Product title 1</h4>-->
+                <!--                <span class="font-bold">€100</span>-->
             </div>
             <div class="product-card-2 flex flex-col justify-center items-center lg:gap-y-3 bg-white text-black">
-                <img src="../src/img/products/shimano-ultegra.jpg" alt="" class="w-full">
-                <h4 class="font-bold">Product title 1</h4>
-                <span class="font-bold">€100</span>
+                <!--                <img src="../src/img/products/shimano-ultegra.jpg" alt="" class="w-full">-->
+                <!--                <h4 class="font-bold">Product title 1</h4>-->
+                <!--                <span class="font-bold">€100</span>-->
             </div>
             <div class="product-card-3 flex flex-col justify-center items-center lg:gap-y-3 bg-white text-black">
-                <img src="../src/img/products/shimano-ultegra.jpg" alt="" class="w-full">
-                <h4 class="font-bold">Product title 1</h4>
-                <span class="font-bold">€100</span>
+                <!--                <img src="../src/img/products/shimano-ultegra.jpg" alt="" class="w-full">-->
+                <!--                <h4 class="font-bold">Product title 1</h4>-->
+                <!--                <span class="font-bold">€100</span>-->
             </div>
             <div class="product-card-4 flex flex-col justify-center items-center lg:gap-y-3 bg-white text-black">
-                <img src="../src/img/products/shimano-ultegra.jpg" alt="" class="w-full">
-                <h4 class="font-bold">Product title 1</h4>
-                <span class="font-bold">€100</span>
+                <!--                <img src="../src/img/products/shimano-ultegra.jpg" alt="" class="w-full">-->
+                <!--                <h4 class="font-bold">Product title 1</h4>-->
+                <!--                <span class="font-bold">€100</span>-->
             </div>
         </div>
     </div>
 </section>
+
+<script type="text/javascript">
+
+    let resultSet = [];
+
+    fetch('http://localhost:63342/dutch-tackle/products.json')
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('HTTP Error! status:'.response.status);
+            }
+            return response.json();
+        })
+        .then(function (data) {
+            console.log(data);
+            for (let i = 0; i < data.products.length; i++) {
+                resultSet.push(data.products[i]);
+            }
+
+            jsonToHtml(resultSet);
+        })
+        .catch(error => console.error('Error:', error))
+
+
+    function filterByCategory(category) {
+        let filteredResults = resultSet.filter(function (item) {
+            return item.category === category;
+        });
+
+        jsonToHtml(filteredResults)
+    }
+
+    function jsonToHtml(resultSet) {
+        if (resultSet.length === 0) {
+            console.info('ResultSet is empty');
+            return;
+        }
+
+        let container = document.getElementById("product-wrapper");
+        container.innerHTML = "";
+        for (let i = 0; i < resultSet.length; i++) {
+            let div = document.createElement("div");
+            div.classList.add("flex", "flex-col", "justify-center", "items-center", "lg:gap-y-3", "bg-white", "text-black");
+            div.innerHTML = `
+            <img src="${resultSet[i].productImage}">
+            <h4>${resultSet[i].name}</h4>
+            <span>${resultSet[i].price}"</span>
+            `
+            container.appendChild(div);
+        }
+    }
+
+</script>
 
 <script src="../src/main.js"></script>
 </body>
