@@ -634,16 +634,6 @@ video {
   margin-bottom: 1.25rem;
 }
 
-.my-6 {
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
-}
-
-.my-48 {
-  margin-top: 12rem;
-  margin-bottom: 12rem;
-}
-
 .mb-20 {
   margin-bottom: 5rem;
 }
@@ -654,6 +644,10 @@ video {
 
 .mb-6 {
   margin-bottom: 1.5rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
 }
 
 .mr-2 {
@@ -674,26 +668,6 @@ video {
 
 .mt-5 {
   margin-top: 1.25rem;
-}
-
-.mb-11 {
-  margin-bottom: 2.75rem;
-}
-
-.mb-12 {
-  margin-bottom: 3rem;
-}
-
-.mb-24 {
-  margin-bottom: 6rem;
-}
-
-.mb-96 {
-  margin-bottom: 24rem;
-}
-
-.mb-8 {
-  margin-bottom: 2rem;
 }
 
 .block {
@@ -744,6 +718,30 @@ video {
   height: 100%;
 }
 
+.h-32 {
+  height: 8rem;
+}
+
+.h-48 {
+  height: 12rem;
+}
+
+.h-12 {
+  height: 3rem;
+}
+
+.h-96 {
+  height: 24rem;
+}
+
+.h-64 {
+  height: 16rem;
+}
+
+.h-72 {
+  height: 18rem;
+}
+
 .min-h-96 {
   min-height: 24rem;
 }
@@ -754,6 +752,34 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-32 {
+  width: 8rem;
+}
+
+.w-48 {
+  width: 12rem;
+}
+
+.w-12 {
+  width: 3rem;
+}
+
+.w-80 {
+  width: 20rem;
+}
+
+.w-96 {
+  width: 24rem;
+}
+
+.w-64 {
+  width: 16rem;
+}
+
+.w-72 {
+  width: 18rem;
 }
 
 .flex-auto {
@@ -806,6 +832,10 @@ video {
   row-gap: 0.5rem;
 }
 
+.scroll-smooth {
+  scroll-behavior: smooth;
+}
+
 .text-nowrap {
   text-wrap: nowrap;
 }
@@ -829,18 +859,6 @@ video {
 
 .border {
   border-width: 1px;
-}
-
-.border-8 {
-  border-width: 8px;
-}
-
-.border-b {
-  border-bottom-width: 1px;
-}
-
-.border-b-8 {
-  border-bottom-width: 8px;
 }
 
 .border-yellow {
@@ -891,6 +909,16 @@ video {
 
 .fill-yellow {
   fill: #F1E600;
+}
+
+.object-contain {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .object-fill {
@@ -953,31 +981,6 @@ video {
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
-}
-
-.py-6 {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-}
-
-.py-12 {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-
-.py-24 {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-}
-
-.py-0 {
-  padding-top: 0px;
-  padding-bottom: 0px;
-}
-
-.py-48 {
-  padding-top: 12rem;
-  padding-bottom: 12rem;
 }
 
 .text-center {
