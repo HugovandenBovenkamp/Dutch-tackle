@@ -49,7 +49,7 @@ function jsonToHtml(resultSet) {
     container.innerHTML = "";
     for (let i = 0; i < resultSet.length; i++) {
         let div = document.createElement("div");
-        div.classList.add("flex", "flex-col", "justify-center", "items-center", "lg:gap-y-3", "bg-white", "text-black", "mb-8");
+        div.classList.add("flex", "flex-col", "justify-center", "items-center", "lg:gap-y-3", "bg-white", "text-black", "mb-12");
         let twoDecimalsPrice = (resultSet[i].price / 100).toFixed(2).replace(".", ",");
         div.innerHTML = `
             <img class="w-48 h-48 object-contain mb-4" src="${resultSet[i].productImage}">

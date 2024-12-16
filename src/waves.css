@@ -1,0 +1,23 @@
+
+/* Hero section bottom wave */
+.custom-shape-divider-bottom-1733905077 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1733905077 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 61px;
+}
+
+.custom-shape-divider-bottom-1733905077 .shape-fill {
+    fill: #F5F5F5;
+}
+
