@@ -35,7 +35,7 @@
 <h3>My next goals are :</h3>
 <ul>
   <li>Learning a Javascript framework like React or Vue</li>
-  <li>Get more experience writing css with Tailwindcss</li>
+  <li>Get more experience using Tailwindcss</li>
   <li>Learn a server side rendering framework like Nextjs or Nuxt</li>
-  <li>Learn Typescript</li>
+  <li>Learning Typescript</li>
 </ul>
