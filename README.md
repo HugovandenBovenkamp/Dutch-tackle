@@ -24,7 +24,7 @@
 <hr>
 <h3>Some questions I asked myself about CSS and Tailwindcss:</h3>
 <ul>
-  <li>How do I create my own color pallete in Tailwindcss?<li>
+  <li>How do I create my own color pallete in Tailwindcss?</li>
   <li>Now that flexbox is something that I can use well, how do I use CSS grid?</li>
   <li>How do I make websites responsive with Tailwindcss?</li>
   <li>Tailwindcss works mobile first, how do I approach this when writing media queries?</li>
